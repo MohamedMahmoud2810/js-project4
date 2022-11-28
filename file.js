@@ -38,9 +38,11 @@
 //         }
 //         return this.healthRate;
 //     }
-//     Person.prototype.Items = function(item){
-//         this.money = 10*item + "LE";
-//         return this.money;
+//     Person.prototype.Buy = function(items){
+//         for(items == 1;items>1;items++){
+//             this.money= ("Decrease money by " + items*10 + " LE for buying " + items + " items");
+//             return this.money;
+//         }
 //     }
 
 // }
@@ -48,7 +50,7 @@
 // var mohamed = new Person("mohamed");
 // console.log(mohamed.Sleep(7));
 // console.log(mohamed.Eat(1));
-// console.log(mohamed.Items(12));
+// console.log(mohamed.Buy(12));
 
 
 
@@ -96,17 +98,19 @@
 //         }
 //         return this.healthRate;
 //     }
-//     Items(item){
+//     Buy(items){
         
-//     this.money = 10*item + "LE";
-//     return this.money;
+//         for(items == 1;items>1;items++){
+//             this.money= ("Decrease money by " + items*10 + " LE for buying " + items + " items");
+//             return this.money;
+//         }
 //     }
 // }
 
 // var mohamed = new Person("mohamed");
 // console.log(mohamed.Sleep(7));
 // console.log(mohamed.Eat(1));
-// console.log(mohamed.Items(5));
+// console.log(mohamed.Buy(5));
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -152,9 +156,11 @@
 //             }
 //             return this.healthRate;
 //         }
-//         this.Items = function(item){
-//         this.money = 10*item + "LE";
-//             return this.money;
+//         this.Buy = function(items){
+//     for(items == 1;items>1;items++){
+//     this.money= ("Decrease money by " + items*10 + " LE for buying " + items + " items");
+//     return this.money;
+// }
 //         }
 //         return this;
 //     }
@@ -166,7 +172,7 @@
 // const mohamed = Object.create(Person).init()
 // console.log(mohamed.Sleep(7));
 // console.log(mohamed.Eat(1));
-// console.log(mohamed.Items(2));
+// console.log(mohamed.Buy(2));
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -208,10 +214,13 @@
 //             }
 //             return this.healthRate;
 //         },
-//         Items(item){
+//         Buy(items){
+//                 for(items == 1;items>1;items++){
+//                     this.money= ("Decrease money by " + items*10 + " LE for buying " + items + " items");
+//                     return this.money;
+//                 }
             
-//             this.money = 10*item + "LE";
-//             return this.money;
+            
 //         }
 //     }
 // }
@@ -219,7 +228,7 @@
 // const ahmed = Person();
 // console.log(ahmed.Sleep(7));
 // console.log(ahmed.Eat(3));
-// console.log(ahmed.Items(4));
+// console.log(ahmed.Buy(4));
 
 
 
