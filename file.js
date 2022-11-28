@@ -38,22 +38,17 @@
 //         }
 //         return this.healthRate;
 //     }
-    // Person.prototype.Items = function(item){
-    //     if(item == 1){
-    //         this.money = "10 LE";
-    //     }
-    //     else{
-    //         return "invalid money";
-    //     }
-    //     return this.money;
-    // }
+//     Person.prototype.Items = function(item){
+//         this.money = 10*item + "LE";
+//         return this.money;
+//     }
 
 // }
 
 // var mohamed = new Person("mohamed");
 // console.log(mohamed.Sleep(7));
 // console.log(mohamed.Eat(1));
-// console.log(mohamed.Items(1));
+// console.log(mohamed.Items(12));
 
 
 
@@ -61,7 +56,7 @@
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-// classes 
+//classes 
 
 // class Person{
 //     constructor (fullName , money , sleepMode , healthRate){
@@ -71,53 +66,47 @@
 //         this.healthRate = healthRate;
 //     }
 //     Sleep(hours){
-        // if(hours==7){
-        //     this.sleepMode = 'Happy';
-        // }
-        // else if(hours<7){
-        //     this.sleepMode = "Tired";
-        // }
-        // else{
-        //     this.sleepMode = "Lazy" ;
-        // }
-        // return this.sleepMode;
+//         if(hours==7){
+//             this.sleepMode = 'Happy';
+//         }
+//         else if(hours<7){
+//             this.sleepMode = "Tired";
+//         }
+//         else{
+//             this.sleepMode = "Lazy" ;
+//         }
+//         return this.sleepMode;
 //         }
 
 //     Eat(meals){
-        // if(meals == 3){
-        //     this.healthRate = 100;
+//         if(meals == 3){
+//             this.healthRate = 100;
                         
-        // }
-        // else if(meals == 2){
-        // this.healthRate = 75
+//         }
+//         else if(meals == 2){
+//         this.healthRate = 75
                         
-        // }
-        // else if(meals == 1){
-        // this.healthRate = 50
+//         }
+//         else if(meals == 1){
+//         this.healthRate = 50
                         
-        // }
-        // else{
-        // console.log("wrong meals number");
-        // }
-        // return this.healthRate;
+//         }
+//         else{
+//         console.log("wrong meals number");
+//         }
+//         return this.healthRate;
 //     }
 //     Items(item){
         
-            // if(item == 1){
-            //     this.money = "10 LE";
-            // }
-            // else{
-            //     return "invalid money";
-            // }
-            // return this.money;
-//         }
+//     this.money = 10*item + "LE";
+//     return this.money;
 //     }
-
+// }
 
 // var mohamed = new Person("mohamed");
 // console.log(mohamed.Sleep(7));
 // console.log(mohamed.Eat(1));
-// console.log(mohamed.Items(1));
+// console.log(mohamed.Items(5));
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -134,43 +123,38 @@
 //         this.sleepMode =sleepMode;
 //         this.healthRate = healthRate;
 //         this.Sleep = function (hours){
-            // if(hours==7){
-            //     this.sleepMode = 'Happy';
-            // }
-            // else if(hours<7){
-            //     this.sleepMode = "Tired";
-            // }
-            // else{
-            //     this.sleepMode = "Lazy" ;
-            // }
-            // return this.sleepMode;
+//             if(hours==7){
+//                 this.sleepMode = 'Happy';
+//             }
+//             else if(hours<7){
+//                 this.sleepMode = "Tired";
+//             }
+//             else{
+//                 this.sleepMode = "Lazy" ;
+//             }
+//             return this.sleepMode;
 //         }
 //         this.Eat = function (meals){
-            // if(meals == 3){
-            //     this.healthRate = 100;
+//             if(meals == 3){
+//                 this.healthRate = 100;
                             
-            // }
-            // else if(meals == 2){
-            // this.healthRate = 75
+//             }
+//             else if(meals == 2){
+//             this.healthRate = 75
                             
-            // }
-            // else if(meals == 1){
-            // this.healthRate = 50
+//             }
+//             else if(meals == 1){
+//             this.healthRate = 50
                             
-            // }
-            // else{
-            // console.log("wrong meals number");
-            // }
-            // return this.healthRate;
+//             }
+//             else{
+//             console.log("wrong meals number");
+//             }
+//             return this.healthRate;
 //         }
 //         this.Items = function(item){
-            // if(item == 1){
-            //     this.money = "10 LE";
-            // }
-            // else{
-            //     return "invalid money";
-            // }
-            // return this.money;
+//         this.money = 10*item + "LE";
+//             return this.money;
 //         }
 //         return this;
 //     }
@@ -182,7 +166,7 @@
 // const mohamed = Object.create(Person).init()
 // console.log(mohamed.Sleep(7));
 // console.log(mohamed.Eat(1));
-// console.log(mohamed.Items(1));
+// console.log(mohamed.Items(2));
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -225,12 +209,8 @@
 //             return this.healthRate;
 //         },
 //         Items(item){
-//             if(item == 1){
-//                 this.money = "10 LE";
-//             }
-//             else{
-//                 return "invalid money";
-//             }
+            
+//             this.money = 10*item + "LE";
 //             return this.money;
 //         }
 //     }
@@ -239,12 +219,8 @@
 // const ahmed = Person();
 // console.log(ahmed.Sleep(7));
 // console.log(ahmed.Eat(3));
-// console.log(ahmed.Items(1));
+// console.log(ahmed.Items(4));
 
 
 
 /////// Thank you /////////////
-
-
-
-
